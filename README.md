@@ -1,4 +1,4 @@
-# twilio-signal-rag-and-roll
+# RAG & Roll Hands on Lab - Twilio Signal 2025
 
 ## Workshop Overview
 
@@ -8,22 +8,22 @@ You'll see how Twilio AI Assistants dramatically simplifies the development proc
 
 ## What You'll Learn
 
--   Understanding the limitations of standard LLMs and how RAG solves these challenges
--   The core components of RAG architecture and how they work together
--   How to implement RAG systems using two approaches:
-    -   The DIY approach with LangChain (demonstration only)
-    -   The accelerated approach with Twilio AI Assistants (hands-on)
--   Best practices for designing effective AI assistants for real-world applications
+- Understanding the limitations of standard LLMs and how RAG solves these challenges
+- The core components of RAG architecture and how they work together
+- How to implement RAG systems using two approaches:
+    - The DIY approach with LangChain (demonstration only)
+    - The accelerated approach with Twilio AI Assistants (hands-on)
+- Best practices for designing effective AI assistants for real-world applications
 
 ## Prerequisites
 
 To participate in the hands-on portion of this workshop, you'll need:
 
--   A laptop with internet access
--   A modern web browser (Chrome, Firefox, Edge, or Safari)
--   A Twilio account (free trial accounts work fine)
-    -   [Sign up here](https://twil.io/try-twilio) if you don't have one
--   Basic understanding of programming concepts (no advanced coding skills required)
+- A laptop with internet access
+- A modern web browser (Chrome, Firefox, Edge, or Safari)
+- A Twilio account (free trial accounts work fine)
+    - [Sign up here](https://twil.io/try-twilio) if you don't have one
+- Basic understanding of programming concepts (no advanced coding skills required)
 
 ## Workshop Outline
 
@@ -36,12 +36,11 @@ To participate in the hands-on portion of this workshop, you'll need:
     - Vector storage options
     - Similarity search and retrieval
     - Prompt composition techniques
-    - Integration all togehter for RAG
+    - Integrating all together for RAG
 
 ### Part 2: The DIY Approach with LangChain (15 min)
 
-- Live demonstration of building a car rental assistant with LangChain
-- Examination of the code required
+- Code walkthrough of building a [smart assistant with LangChain](https://github.com/rishabkumar7/langchain-azure-ai-search-rag)
 - Discussion of integration challenges and maintenance considerations
 - _Note: This is a demonstration only; participants will not need to code along_
 
@@ -64,27 +63,38 @@ To participate in the hands-on portion of this workshop, you'll need:
 ### Step 1: Prepare Your Twilio Account
 
 - Create or log in to your Twilio account
-- Navigate to the AI Assistants section in the Twilio Console
-- Create a new project (we'll do this together during the workshop)
+- Navigate to the AI Assistants section in the Twilio Console, if you don't see it, you will have to sign-up for [it here.](https://twilioalpha.com/ai-assistants)
+- Create a new AI Assistants (we'll do this together during the workshop)
 
 ### Step 2: Prepare Your Knowledge Base
 
-- We'll provide sample documents for our fictional car rental company "SpeedyWheels"
-- Documents include rental policies, vehicle information, and FAQ content
+- We'll provide sample documents for our fictional car rental company "Silicon Valley Car Rentals"
+- Documents include terms and conditions, vehicle inventory, and basic business information
 - You'll learn how to upload and organize these documents
 
 ### Step 3: Configure Your Assistant
 
 - Set up the assistant's personality and expertise
+
+    ```md
+    You are a helpful assistant to help rental car customers . You only rely on the context provided by you and don't make up any other facts. Reply with "I'm afraid I don't have information about this" if you don’t know the answer.
+    ```
+
 - Configure response parameters
 - Test capabilities using the simulator
 
-### Step 4: Deploy Your Assistant
+### Step 4: Deploy Your AI Assistant
 
 - Connect to communication channels (time permitting)
-- Buy a Twilio Number for SMS/Voice Capabililites or you can also use WhatsApp Sandbox
+- Buy a Twilio Number for SMS/Voice Capabilities or you can also use WhatsApp Sandbox
 - Use the Quick Deploy template [here.](https://www.twilio.com/code-exchange/ai-assistants-samples)
 - Test with real-world scenarios
+
+## Step 5: Tools for AI Assistant
+
+- See how you can configure Tools for AI Assistant
+- We will configure a dummy CRM API to get reservation details.
+![AI Assistant Tools](/files/adding-tool-aia.png)
 
 ## Resources
 
@@ -100,7 +110,7 @@ The following resources will be available during and after the workshop:
 
 Rishab Kumar
  - Twitter/X: @rishabincloud
- - LinkedIn
+ - [LinkedIn](https://linked.com/in/rishabkumar7)
 
 ## Questions or Issues?
 
