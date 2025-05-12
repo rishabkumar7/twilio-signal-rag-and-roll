@@ -93,8 +93,9 @@ To participate in the hands-on portion of this workshop, you'll need:
 ## Step 5: Tools for AI Assistant
 
 - See how you can configure Tools for AI Assistant
-- We will configure a dummy CRM API to get reservation details.
+- We will configure a dummy CRM API to get reservation details
 ![AI Assistant Tools](/files/adding-tool-aia.png)
+- We will use webhook.site to have the [mock API](https://webhook.site/)
 
 ## Resources
 
