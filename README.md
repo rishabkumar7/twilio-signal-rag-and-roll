@@ -52,7 +52,18 @@ To participate in the hands-on portion of this workshop, you'll need:
 - Testing and refining your assistant
 - Deploying to communication channels
 
-### Part 4: Q&A and Next Steps (5 min)
+### Part 4: Part 4: Automating and Customizing Your Assistant (5 min)
+- Why it can make sense to automate the creation of AI Assistants
+- How to automate the creation of knowledge, tools, or entire AI Assistants
+- When to consider proxying the messages
+- Trigger messages to your assistants manually with:
+    ```
+    client.assistants.v1.assistants(aiAssistantID).messages.create()
+    ```
+- Verify incoming webhooks to ensure secure and trusted communication 
+
+
+### Part 5: Q&A and Next Steps (5 min)
 
 - Open discussion and troubleshooting
 - Resources for further learning
@@ -107,11 +118,16 @@ The following resources will be available during and after the workshop:
 - Troubleshooting guide
 - Links to Twilio documentation and community resources
 
-## About the Instructor
+## About the Instructors
 
 Rishab Kumar
  - Twitter/X: @rishabincloud
  - [LinkedIn](https://linked.com/in/rishabkumar7)
+
+
+Marius Obert
+ - Twitter/X: [@IObert_](https://x.com/iobert_)
+ - LinkedIn: [in/mariusobert](https://www.linkedin.com/in/mariusobert/)
 
 ## Questions or Issues?
 
