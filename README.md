@@ -121,7 +121,7 @@ The following resources will be available during and after the workshop:
 ## About the Instructors
 
 Rishab Kumar
- - Twitter/X: @rishabincloud
+ - Twitter/X: [@rishabincloud](https://x.com/rishabincloud)
  - [LinkedIn](https://linked.com/in/rishabkumar7)
 
 
