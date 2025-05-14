@@ -38,7 +38,7 @@ To participate in the hands-on portion of this workshop, you'll need:
     - Prompt composition techniques
     - Integrating all together for RAG
 
-### Part 2: The DIY Approach with LangChain (15 min)
+### Part 2: The DIY Approach with LangChain (7 min)
 
 - Code walkthrough of building a [smart assistant with LangChain](https://github.com/rishabkumar7/langchain-azure-ai-search-rag)
 - Discussion of integration challenges and maintenance considerations
@@ -52,7 +52,7 @@ To participate in the hands-on portion of this workshop, you'll need:
 - Testing and refining your assistant
 - Deploying to communication channels
 
-### Part 4: Part 4: Automating and Customizing Your Assistant (5 min)
+### Part 4: Automating and Customizing Your Assistant (10 min)
 - Why it can make sense to automate the creation of AI Assistants
 - How to automate the creation of knowledge, tools, or entire AI Assistants
 - When to consider proxying the messages
