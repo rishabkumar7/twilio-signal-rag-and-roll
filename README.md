@@ -99,6 +99,17 @@ To participate in the hands-on portion of this workshop, you'll need:
 - Connect to communication channels (time permitting)
 - Buy a Twilio Number for SMS/Voice Capabilities or you can also use WhatsApp Sandbox
 - Use the Quick Deploy template [here.](https://www.twilio.com/code-exchange/ai-assistants-samples)
+- For voice, we can use TwiML Bins
+
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <Response>
+        <Connect>
+            <Assistant id="YOUR_ASSISTANT_ID" welcomeGreeting="Hi! Ask me anything!" voice="en-US-Journey-O"></Assistant>
+     </Connect>
+    </Response>
+    ```
+
 - Test with real-world scenarios
 
 ## Step 5: Tools for AI Assistant
